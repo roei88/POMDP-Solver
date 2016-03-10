@@ -1,6 +1,6 @@
 # POMDP-Solver
 
-#Short description:
+##Short description:
   Sequential decision making under uncertainty using belief-state MDP for decision-making: the EU refugee problem.
   The environment consists of a weighted unidrected graph, where each vertex has a known probability of having police and food.
   The probabilities of police are mutually independent, and they do not move.
@@ -17,7 +17,7 @@
   
   The Simulator purpuse is to find a policy that brings the refugee agent from vertex s to t, on a route that has minimal expected       cost, without encountering police.
 
-#project structure:
+##project structure:
   The POMDP-Solver contains five packages:
   
     dataStructures	- Contains the Bag and Stack ds that are part of the graph and the environment types.
@@ -32,7 +32,7 @@
     
     pomdp - The heart of the solver, contains all legal states, actions and calculates the optimal policy.
 
-#Integrated packages: (added from princeton uni. cs department and modifed partially according to needs)
+##Integrated packages: (added from princeton uni. cs department and modifed partially according to needs)
 
   graph
   
@@ -40,14 +40,14 @@
   
   dataStructures
   
-#Fully writen packages: (fully writen fro scrach)
+##Fully writen packages: (fully writen from scrach)
   main
   
   env
   
   pomdp
   
-#Input folder
+##Input folder
 
   Graph.txt - Represents the graph.
   
