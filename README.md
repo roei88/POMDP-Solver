@@ -19,6 +19,7 @@
 
 #project structure:
   The POMDP-Solver contains five packages:
+  
     dataStructures	- Contains the Bag and Stack ds that are part of the graph and the environment types.
     
     env - Represents the environment, that is the world we are acting in, which is comprised of a graph and info about the vertexes and           agents.
@@ -32,18 +33,22 @@
     pomdp - The heart of the solver, contains all legal states, actions and calculates the optimal policy.
 
 #Integrated packages: (added from princeton uni. cs department and modifed partially according to needs)
+
   graph
   
   io
   
   dataStructures
+  
 #Fully writen packages: (fully writen fro scrach)
   main
   
   env
   
   pomdp
+  
 #Input folder
+
   Graph.txt - Represents the graph.
   
   vertexInfo.txt - Represents the data about vertexes (police and food probabilities).
