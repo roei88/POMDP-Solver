@@ -22,7 +22,7 @@
   
     dataStructures	- Contains the Bag and Stack ds that are part of the graph and the environment types.
     
-    env - Represents the environment, that is the world we are acting in, which is comprised of a graph and info about the vertexes and           agents.
+    env - Represents the environment, that is the world we are acting in, which is comprised of a graph and info about the vertexes and agents.
     
     graph	- undirected weighed graph data sctructure.
     
